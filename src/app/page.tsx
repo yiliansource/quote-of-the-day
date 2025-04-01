@@ -28,21 +28,19 @@ export default function Home() {
             <main className="flex fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full *:m-auto">
                 {qotd && <Quote {...qotd} />}
             </main>
-            <footer className="flex flex-row gap-2 m-[auto_4px_2px_auto] text-sm text-neutral-600">
+            <footer className="flex flex-row gap-2 m-[auto_8px_4px_auto] text-sm text-neutral-600">
                 <span>
-                    made by{" "}
                     <Link href="https://hornik.dev" target="_blank">
-                        ian hornik
+                        made by Ian Hornik
                     </Link>
                 </span>
-                <span className="text-neutral-400">&bull;</span>
+                <span className="text-neutral-400 select-none">&bull;</span>
                 <span>
-                    view on{" "}
                     <Link
                         href="https://github.com/yiliansource/quote-of-the-day"
                         target="_blank"
                     >
-                        GitHub
+                        view on GitHub
                     </Link>
                 </span>
             </footer>
