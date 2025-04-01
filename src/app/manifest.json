@@ -3,6 +3,7 @@
     "short_name": "QOTD",
     "description": "Displays a different inspirational quote every day.",
     "start_url": "/",
+    "display": "fullscreen",
     "icons": [
         {
             "src": "android-chrome-192x192.png",
