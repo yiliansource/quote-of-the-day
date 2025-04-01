@@ -1,0 +1,18 @@
+{
+    "name": "Quote of the Day",
+    "short_name": "QOTD",
+    "description": "Displays a different inspirational quote every day.",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "android-chrome-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
