@@ -24,7 +24,7 @@ export default function Home() {
     }, []);
 
     return (
-        <div className="flex flex-col font-(family-name:--font-geist-sans) w-dvw h-dvh">
+        <div className="flex flex-col font-(family-name:--font-geist-sans) w-screen h-screen">
             <main className="flex fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full *:m-auto">
                 {qotd && <Quote {...qotd} />}
             </main>
