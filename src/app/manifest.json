@@ -4,6 +4,8 @@
     "description": "Displays a different inspirational quote every day.",
     "start_url": "/",
     "display": "fullscreen",
+    "background_color": "#f1efec",
+    "theme_color": "#f1efec",
     "icons": [
         {
             "src": "android-chrome-192x192.png",

@@ -24,11 +24,11 @@ export default function Home() {
     }, []);
 
     return (
-        <div className="flex flex-col font-(family-name:--font-geist-sans) w-screen h-screen">
+        <div className="font-(family-name:--font-geist-sans) w-screen h-screen">
             <main className="flex fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full *:m-auto">
                 {qotd && <Quote {...qotd} />}
             </main>
-            <footer className="flex flex-row gap-2 m-[auto_8px_4px_auto] text-sm text-neutral-600">
+            <footer className="flex fixed flex-row gap-2 right-4 bottom-2 text-sm text-neutral-600">
                 <span>
                     <Link href="https://hornik.dev" target="_blank">
                         made by Ian Hornik
